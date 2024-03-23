@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dental Office</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <style>
+      body {
+        background-color: #caf0f8;
+      }
+
+      section {
+        margin-top: 20px;
+        margin-bottom: 150px;
+      }
+
+      .navbar {
+        height: 7vh;
+        font-size: 40px;
+      }
+      .navbar.bg-light {
+        background-color: #90e0ef !important;
+      }
+      .services {
+        background-color: #90e0ef;
+        padding: 0px 0;
+      }
+
+      .carousel {
+        padding-top: 3%;
+      }
+      .carousel-item img {
+        width: 75%;
+        height: 60vh;
+        object-fit: contain;
+      }
+      .welcome,
+      .services,
+      .AboutUs,
+      .contact {
+        font-size: xx-large;
+      }
+
+      .card-img-top {
+        transition: transform 0.2s ease;
+        object-fit: cover;
+      }
+
+      .card:hover .card-img-top {
+        transform: scale(1.03);
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <!-- Logo image -->
+        <a class="navbar-brand" href="#welcome">
+          <img src="/photos/icon.png" alt="Logo" height="40" />
+        </a>
+        <h2>WJ Smile Clinic</h2>
+        <!-- Navbar items -->
+        <div
+          class="collapse navbar-collapse justify-content-end mb-5"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#carouselSection">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#servicesSection">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolioSection">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactSection">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="carouselSection" class="carousel">
+      <div class="container-fluid">
+        <div id="carouselSlides" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="/photos/main.jpeg"
+                class="d-block w-100 mx-auto"
+                alt="Carousel Image 1"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/photos/whitening.jpeg"
+                class="d-block w-100 mx-auto"
+                alt="Carousel Image 2"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/photos/sportguard.webp"
+                class="d-block w-100 mx-auto"
+                alt="Carousel Image 3"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselSlides"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselSlides"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Heading for Overall Section -->
+    <section id="welcome" class="welcome">
+      <div class="container mx-auto">
+        <h1>Welcome to WJ Smile Clinic</h1>
+        <p>
+          Welcome to WJ Smile Clinic, a premier dental hygiene clinic in
+          Toronto. We are always doing our best to provide the most accurate
+          information about our dental hygiene practice and about oral health
+          care. Please feel free to contactWJ Smile Clinic at any time with
+          questions or concerns that you have about your oral health. Our expert
+          dentist and dental hygienist is always here to help you!
+        </p>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicesSection" class="services">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <div class="service-content">
+                  <img
+                    src="/photos/exam.jpeg"
+                    class="card-img-top"
+                    alt="Teeth Cleaning"
+                  />
+                  <h1 class="card-title">Teeth cleaning and Examination</h1>
+                  <p class="card-text">
+                    Our highly skilled dental professionals excel in deep teeth
+                    cleaning that is highly effective in addressing tarter,
+                    plaque build-up, and surface stains. These sessions are
+                    crucial as this is the time when our experts screen the oral
+                    cavity for any signs of cancer.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <div class="service-content">
+                  <img
+                    src="/photos/whitening1.webp"
+                    class="card-img-top"
+                    alt="Teeth Whitening"
+                  />
+                  <h1 class="card-title">TEETH WHITENING</h1>
+                  <p class="card-text">
+                    Most stains on teeth are caused by age, tobacco, coffee,
+                    tea, or improper dental care. Antibiotics such as
+                    tetracycline may also cause staining on teeth if taken
+                    during tooth development. WJ Smile Clinic offers two
+                    different types of teeth whitening procedures to whiten and
+                    brighten your smile.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <div class="service-content">
+                  <img
+                    src="/photos/dental-tools.jpg"
+                    class="card-img-top"
+                    alt="Mouth Guards"
+                  />
+                  <h1 class="card-title">CUSTOM SPORT MOUTH GUARDS</h1>
+                  <p class="card-text">
+                    Playing sports is about having fun, but safety must always
+                    be the first priority. The Canadian Dental Hygienists
+                    Association recommends mouth guards to be used by players in
+                    practices and games in a range of contact and non-contact,
+                    competitive, and non-competitive sports.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolioSection" class="AboutUs">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="/photos/drake.png"
+                class="card-img-top"
+                alt="Doctor of Dental Surgeon"
+              />
+              <div class="card-body">
+                <h1 class="card-title">Dr.Drake Ramoray DDS</h1>
+                <p class="card-text">
+                  Dr.Ramoray graduated from University of Toronto
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="/photos/monica-geller.jpg"
+                class="card-img-top"
+                alt="Registered Dental Hygienist"
+              />
+              <div class="card-body">
+                <h1 class="card-title">Monica Geller RDH</h1>
+                <p class="card-text">
+                  Monica is a hygienist, graduated from George Brown College
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="/photos/phoebe.jpeg"
+                class="card-img-top"
+                alt="Certified Dental Assistant"
+              />
+              <div class="card-body">
+                <h1 class="card-title">Phoebe Buffay CDA</h1>
+                <p class="card-text">
+                  Phoebe is an assistant, also graduated from George Brown
+                  College
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contactSection" class="contact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  class="form-control form-control-lg"
+                  id="name"
+                  placeholder="Enter your name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  class="form-control form-control-lg"
+                  id="email"
+                  placeholder="Enter your email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  class="form-control form-control-lg"
+                  id="message"
+                  rows="5"
+                  placeholder="Enter your message"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h1>&copy; 2024 WJ smile Clinic. All rights reserved.</h1>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
