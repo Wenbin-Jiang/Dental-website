@@ -21,8 +21,13 @@
       }
 
       .navbar {
+        padding-top: 20px;
+        padding-bottom: 0;
         height: 7vh;
-        font-size: 40px;
+        font-size: 20px;
+      }
+      .navbar-brand {
+        padding-bottom: 25px;
       }
       .navbar.bg-light {
         background-color: #90e0ef !important;
@@ -44,7 +49,11 @@
       .services,
       .AboutUs,
       .contact {
-        font-size: xx-large;
+        font-size: 1em;
+      }
+
+      .card {
+        height: 100%;
       }
 
       .card-img-top {
@@ -55,6 +64,21 @@
       .card:hover .card-img-top {
         transform: scale(1.03);
       }
+
+      .btn-primary {
+        display: block;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .footer {
+        background: #90e0ef;
+      }
+
+      .footer h1 {
+        font-size: 1em;
+      }
     </style>
   </head>
 
@@ -64,7 +88,7 @@
       <div class="container-fluid">
         <!-- Logo image -->
         <a class="navbar-brand" href="#welcome">
-          <img src="/photos/icon.png" alt="Logo" height="40" />
+          <img src="photos/icon.png" alt="Logo" height="40" />
         </a>
         <h2>WJ Smile Clinic</h2>
         <!-- Navbar items -->
@@ -97,21 +121,21 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
-                src="/photos/main.jpeg"
+                src="photos/main.jpeg"
                 class="d-block w-100 mx-auto"
                 alt="Carousel Image 1"
               />
             </div>
             <div class="carousel-item">
               <img
-                src="/photos/whitening.jpeg"
+                src="photos/whitening.jpeg"
                 class="d-block w-100 mx-auto"
                 alt="Carousel Image 2"
               />
             </div>
             <div class="carousel-item">
               <img
-                src="/photos/sportguard.webp"
+                src="photos/sportguard.webp"
                 class="d-block w-100 mx-auto"
                 alt="Carousel Image 3"
               />
@@ -163,7 +187,7 @@
               <div class="card-body">
                 <div class="service-content">
                   <img
-                    src="/photos/exam.jpeg"
+                    src="photos/exam.jpeg"
                     class="card-img-top"
                     alt="Teeth Cleaning"
                   />
@@ -184,7 +208,7 @@
               <div class="card-body">
                 <div class="service-content">
                   <img
-                    src="/photos/whitening1.webp"
+                    src="photos/whitening1.webp"
                     class="card-img-top"
                     alt="Teeth Whitening"
                   />
@@ -206,7 +230,7 @@
               <div class="card-body">
                 <div class="service-content">
                   <img
-                    src="/photos/dental-tools.jpg"
+                    src="photos/dental-tools.jpg"
                     class="card-img-top"
                     alt="Mouth Guards"
                   />
@@ -233,7 +257,7 @@
           <div class="col-md-3">
             <div class="card">
               <img
-                src="/photos/drake.png"
+                src="photos/drake.png"
                 class="card-img-top"
                 alt="Doctor of Dental Surgeon"
               />
@@ -248,7 +272,7 @@
           <div class="col-md-3">
             <div class="card">
               <img
-                src="/photos/monica-geller.jpg"
+                src="photos/monica-geller.jpg"
                 class="card-img-top"
                 alt="Registered Dental Hygienist"
               />
@@ -263,7 +287,7 @@
           <div class="col-md-3">
             <div class="card">
               <img
-                src="/photos/phoebe.jpeg"
+                src="photos/phoebe.jpeg"
                 class="card-img-top"
                 alt="Certified Dental Assistant"
               />
