@@ -1,9 +1,5 @@
 wenbin Jiang
-n01645691
-
 # lab10
-
-lab10 bootstrap
 
 This project is a website for a dental clinic named "WJ Smile Clinic". The website provides information about the clinic's services, team members, and contact details. It features a responsive design implemented using Bootstrap, ensuring that the website adapts well to various screen sizes and devices.
 
